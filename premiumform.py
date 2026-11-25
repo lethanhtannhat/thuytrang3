@@ -225,7 +225,7 @@ except FileNotFoundError:
     index = 0
 
 # Mở và đọc CSV
-with open("test1.csv", encoding="utf-8-sig") as file:
+with open("test3.csv", encoding="utf-8-sig") as file:
     reader = list(csv.reader(file))
     total_rows = len(reader)
 
